@@ -42,31 +42,11 @@ Voeg Maplibre toe:\
 {/block}
 ```
 
-**screen.scss** \
+**style.css of scss** \
 Voeg de regel toe aan je scss
 ````scss
 @import "maplibre-gl/dist/maplibre-gl.css";
 ````
-
-**webpack.mix.js**\
-Voeg de regels toe aan de mix
-````js
-.js('resources/js/map/map.js', 'js')
-.copy('resources/js/map/style', 'js/style')
-````
-
-**pas obfuscator aan in js**
-voeg ``'/js/map.js'`` toe aan de array
-````js
-mix.webpackConfig({
-        plugins: [
-            new WebpackObfuscator ({
-                rotateUnicodeArray: true
-            }, ['/js/manifest.js','/js/vendor.js', '/js/map.js'])  // voeg '/js/map.js' toe zoals hier
-        ]
-    })
-````
-
 
 
 Map tag opties

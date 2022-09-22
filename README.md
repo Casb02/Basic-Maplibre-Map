@@ -37,9 +37,9 @@ Voeg Maplibre toe:\
 <!-- Zet op de juiste plaats binnen je template, id is OPTIONEEL -->
 <div id="maplibre" data-maplibre data-lat="52.284410" data-lng="6.814800" data-height="500"></div>
 
-{block name="scripts"}
-    <script src="/js/map.js"></script>
-{/block}
+<!-- Script -->
+<script src="/js/map.js"></script>
+
 ```
 
 **style.css of scss** \

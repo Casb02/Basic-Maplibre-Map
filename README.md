@@ -1,9 +1,15 @@
 # Maplibre Map 
-### Alternative to Openlayers 
+### Alternatief op Openlayers 
 
 In tegenstelling tot Openlayers met mapbox 1.13 is maplibre een opensource versie verder gebouwd op mapbox 1.13
 maplibre bevat vergelijkbare mogelijkheden als nieuwere mapbox versies. Maplibre maakt gebruik van mapbox style layout deze 
 kun je ook zelf maken met hulpmiddelen als https://maputnik.github.io/
+
+
+#Github notice,
+
+De map is standaard leeg omdat de style niet gevuld is. Binnenkort kan via een optie dit worden ingeschakeld.
+Momenteel moet je eigen style aanleveren
 
 ---
 

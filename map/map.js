@@ -43,7 +43,7 @@ mapElements.forEach((mapEl) => {
     const map = new maplibregl.Map({
         container: mapEl.id,
         style: mapStyle, // mapbox style location (custum style with https://maputnik.github.io/)
-        center: [parseFloat(lng), parseFloat(lat)], // starting position [lng, lat]
+        center: [lng, lat], // starting position [lng, lat]
         zoom: mapZoom, // starting zoom
         attributionControl: false, // disable large attribution
         maxPitch: 0, // Disables pitch (set to +1 to 85 to enable)
@@ -100,14 +100,14 @@ mapElements.forEach((mapEl) => {
         new maplibregl.Marker({
             element: customMarker, // Custom marker element
             draggable: false, // toggle if marker can be moved
-        }).setLngLat([parseFloat(lng), parseFloat(lat)])
+        }).setLngLat([lng, lat])
             .addTo(map);
 
     } else {
         new maplibregl.Marker({
             color: markerColor,// Custom map marker color
             draggable: false, // toggle if marker can be moved
-        }).setLngLat([parseFloat(lng), parseFloat(lat)])
+        }).setLngLat([lng, lat])
             .addTo(map);
 
     }

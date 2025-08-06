@@ -11,10 +11,12 @@ The map is empty by default because the style is not set. Soon this can be enabl
 
 ---
 
-## Yarn
-
 Add MapLibre
+## Yarn
 `yarn add maplibre-gl`
+
+## Npm
+'npm i maplibre-gl'
 
 ---
 
@@ -22,11 +24,11 @@ Add MapLibre
 
 ### Add manually
 
-1. Copy the `map` folder to `/resources/js`
+1. Copy the `map` folder to `/js`, or any of your preferd JS location
 
 ### Adjust manually
 
-**file.tpl**
+**file.html** (or any html)
 
 ### **More usage examples below**
 
@@ -80,3 +82,4 @@ Add the line to your SCSS
 ```html
 <div id="example-color" data-maplibre data-lat="52.284410" data-lng="6.814800" data-height="500" data-marker-color="#0000ff"></div>
 ```
+
